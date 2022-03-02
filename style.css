@@ -1,0 +1,143 @@
+html{
+    padding: 0 5rem;
+    margin: 0 2em;
+}
+
+.carretitre{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.logo{
+    width: 5em;
+    height: 5em;
+    display: flex;
+    
+}
+
+.titreh1{
+    background-color: blue;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.seconnecter{
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    height: 2rem;
+    font-size: 0.7em;
+    z-index: 2;
+    padding: 0.5em 0;
+}
+
+.verspage{
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+}
+
+.barredepresentation{
+    width: 100%;
+    height: 100%;
+    border: solid gray 0.06em;
+    display: flex;
+    padding: 0 0.5em;
+    margin-top: 1em;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.queteclic{
+    background-color: rebeccapurple;
+    min-width: 28%;
+    height: 6em;
+    display: block;
+    border: solid black 0.1em;    
+    margin: 1em 1em;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.les_gros_titres{
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+    margin-top: 2em;
+    padding:  1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carredesliens{
+    width: 100%;
+    height: 100%;
+    background-color:yellow;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid 0.1em;
+}
+
+.petitsliens{
+    width: 10rem;
+    height: max-content;
+    background-color: white;
+    margin: 1em 2em;
+    border: solid 1px;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.articleadroite{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    width: 70%;
+    background-color: red;
+}
+
+.articleadroitetitre{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.P_lorem{
+    margin: 1em 0.8em;
+}
+
+.gallerie{
+    background-color: fuchsia;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.encoreuntitre{
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+.lesderniersp{
+    margin: 1em;
+}
+
+.erreur{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.revenir{
+    width: auto;
+    height: auto;
+}
